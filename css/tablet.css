@@ -1,0 +1,8 @@
+@media screen and (min-width: 767px) {
+	.container {
+		max-width: 766px;
+	}
+	.team-item {
+        width: calc((100% - 24px) / 2);
+    }
+}
