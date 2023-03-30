@@ -606,6 +606,7 @@ a {
 	padding: 96px 0;
 }
 .footer-logo {
+	justify-content: center;
 	font-family: "Raleway", sans-serif;
 	font-style: normal;
 	font-weight: 800;
@@ -633,14 +634,20 @@ a {
 .display-primary {
 	/* display: flex; */
 	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .footer-text-container {
+	margin-bottom: 72px;
 }
 
 .footer-social-container {
 	/* margin-left: 120px; */
+	margin-bottom: 72px;
 }
 .footer-social-title {
+	text-align: center;
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
@@ -679,6 +686,8 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	
 }
 .footer-form-subtitle {
 	font-weight: 500;
@@ -701,8 +710,10 @@ a {
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	border-radius: 4px;
 	margin-right: 24px;
+	margin-bottom: 16px;
 	color: white;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .footer-form-input:focus {
 	border-color: #4d5ae5;
