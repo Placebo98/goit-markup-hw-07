@@ -2,12 +2,38 @@
 	.container {
 		max-width: 1158px;
 	}
-    .team {
-        padding: 120px 0;
-    }
+	.team {
+		padding: 120px 0;
+	}
 
-    .team-item {
-        width: calc((100% - 72px) / 4);
-    }
-	
+	.team-item {
+		width: calc((100% - 72px) / 4);
+	}
+	.companies {
+		padding: 120px 0;
+	}
+	.companies-item {
+		width: 168px;
+	}
+	.work {
+		display: block;
+	}
+
+	.features {
+		padding: 120px 0;
+	}
+	.features-list {
+		display: flex;
+		gap: 24px;
+		width: calc((100% - 72px) / 4);
+	}
+	.features-box {
+		display: flex;
+	}
+	.features-subtitle {
+		font-size: 20px;
+	}
+	.features-item {
+		
+	}
 }

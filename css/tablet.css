@@ -3,6 +3,28 @@
 		max-width: 766px;
 	}
 	.team-item {
-        width: calc((100% - 24px) / 2);
-    }
+		width: calc((100% - 24px) / 2);
+	}
+	.team-list {
+		row-gap: 64px;
+	}
+
+	.companies-item {
+		width: calc((100% - 48px) / 3);
+	}
+	.companies-list {
+		gap: 24px;
+	}
+
+	.features-list {
+		display: flex;
+		/* flex-wrap: wrap; */
+		width: calc((100% - 24px) / 2);
+	}
+}
+
+@media screen and (min-width: 768px), (max-width: 1199px) {
+	.container-sm {
+		max-width: 552px;
+	}
 }
