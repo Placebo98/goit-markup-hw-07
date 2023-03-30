@@ -25,7 +25,6 @@
 	.features-list {
 		display: flex;
 		gap: 24px;
-		width: calc((100% - 72px) / 4);
 	}
 	.features-box {
 		display: flex;
@@ -34,6 +33,10 @@
 		font-size: 20px;
 	}
 	.features-item {
-		
+		width: calc((100% - 72px) / 4);
+	}
+
+	.footer {
+		padding: 100px 0;
 	}
 }

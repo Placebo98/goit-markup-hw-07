@@ -238,7 +238,6 @@ a {
 }
 .features-list {
 	display: block;
-	
 }
 .features-item {
 	width: 100%;
@@ -604,7 +603,7 @@ a {
 /* ------------------Footer Section----------------- */
 .footer {
 	background: var(--footer-background-color);
-	padding: 100px 0;
+	padding: 96px 0;
 }
 .footer-logo {
 	font-family: "Raleway", sans-serif;
@@ -632,13 +631,14 @@ a {
 }
 
 .display-primary {
-	display: flex;
+	/* display: flex; */
+	flex-wrap: wrap;
 }
 .footer-text-container {
 }
 
 .footer-social-container {
-	margin-left: 120px;
+	/* margin-left: 120px; */
 }
 .footer-social-title {
 	font-family: "Roboto";
@@ -675,7 +675,10 @@ a {
 }
 
 .fopter-susccribe-form {
-	margin-left: 80px;
+	/* margin-left: 80px; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer-form-subtitle {
 	font-weight: 500;
@@ -686,11 +689,12 @@ a {
 	margin-bottom: 16px;
 }
 .footer-form {
-	display: flex;
+	
 }
 
 .footer-form-input {
-	width: 264px;
+	width: 100%;
+	/* width: 264px; */
 	height: 40px;
 	padding-left: 16px;
 	background-color: transparent;

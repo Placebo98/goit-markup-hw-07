@@ -18,7 +18,10 @@
 
 	.features-list {
 		display: flex;
-		/* flex-wrap: wrap; */
+		flex-wrap: wrap;
+	}
+
+	.features-item {
 		width: calc((100% - 24px) / 2);
 	}
 }
@@ -26,5 +29,10 @@
 @media screen and (min-width: 768px), (max-width: 1199px) {
 	.container-sm {
 		max-width: 552px;
+	}
+
+	.display-primary {
+		max-width: 565px;
+		display: flex;
 	}
 }
