@@ -39,4 +39,29 @@
 	.footer {
 		padding: 100px 0;
 	}
+	.display-primary {
+		flex-wrap: nowrap;
+	}
+	.footer-social-container {
+		margin-left: 120px;
+	}
+	.fopter-susccribe-form {
+		margin-left: 80px;
+	}
+
+	.contacts-list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.header-logo {
+		margin-right: 76px;
+	}
+	.contacts-list {
+		margin-left: 332px;
+	}
+	.contacts-item:not(:last-child) {
+		margin-right: 40px;
+	}
 }
