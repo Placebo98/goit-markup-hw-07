@@ -299,7 +299,7 @@ a {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 	.hero {
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desctop-bg-min.jpg);
 	}
@@ -432,7 +432,7 @@ a {
 	justify-content: center;
 }
 .team-item {
-	width: 100%;
+	/* width: 100%; */
 	width: 264px;
 }
 .team-content {
