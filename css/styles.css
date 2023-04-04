@@ -121,7 +121,7 @@ a {
 	margin-bottom: 40px;
 }
 .header-link {
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -150,8 +150,8 @@ a {
 
 .contacts-link {
 	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
+	font-weight: 500;
+	font-size: 20px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--contacts-text-color);
@@ -244,7 +244,7 @@ a {
 }
 .mobile-social-list {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	gap: 24px;
 }
 .mobile-social-item {
@@ -271,13 +271,13 @@ a {
 /* ------------------Hero Section----------------- */
 .hero {
 	text-align: center;
-	padding: 188px 0;
+	padding: 112px 0;
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-bg-min.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	max-width: 1440px;
-	height: 600px;
+	max-width: 428px;
+	height: 432px;
 	margin: 0 auto;
 }
 
@@ -357,8 +357,7 @@ a {
 .features-list {
 	display: block;
 }
-.features-item {
-	width: 100%;
+.features-item:not(:last-child) {
 	margin-bottom: 72px;
 }
 .features-box {
@@ -374,7 +373,7 @@ a {
 }
 .features-subtitle {
 	text-align: center;
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -382,7 +381,7 @@ a {
 	margin-bottom: 8px;
 }
 .features-description {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -429,11 +428,12 @@ a {
 .team-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 24px;
 	row-gap: 72px;
+	justify-content: center;
 }
 .team-item {
 	width: 100%;
+	width: 264px;
 }
 .team-content {
 	/* width: 264px; */
@@ -505,7 +505,7 @@ a {
 .companies-list {
 	display: flex;
 	justify-content: center;
-	gap: 16px;
+	gap: 72px 16px;
 	flex-wrap: wrap;
 }
 
@@ -752,6 +752,7 @@ a {
 	letter-spacing: 0.02em;
 	color: var(--footer-description-color);
 	max-width: 264px;
+	margin: 0 auto;
 }
 
 .display-primary {
